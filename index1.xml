@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Christ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="index1.xsd">
+<ComputerScience>
+    <Student_name>Ankita Sharma</Student_name>
+    <Student_university>Christ university</Student_university>
+    <Student_phone>8687457889</Student_phone>
+    <Student_email>ankita@gmail.com</Student_email>
+</ComputerScience>
+<ComputerScience>
+    <Student_name>Mayank Mitra</Student_name>
+    <Student_university>chandigarh university</Student_university>
+    <Student_phone>9687457834</Student_phone>
+    <Student_email>mayank@gmail.com</Student_email>
+</ComputerScience>
+  
+  <ComputerScience>
+    <Student_name>Sandeep Sen</Student_name>
+    <Student_university>world class university</Student_university>
+    <Student_phone>8687457459</Student_phone>
+    <Student_email>sanndeep@gmail.com</Student_email>
+</ComputerScience>
+
+</Christ>
