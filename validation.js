@@ -178,3 +178,9 @@ function validateage(event)
         return true;
     }
 }
+
+localStorage.setItem("phone", phone.value);
+document.getElementById("demo").innerHTML = localStorage.getItem("phone");
+
+localStorage.setItem("email", email.value)
+document.getElementById("demo1").innerHTML = localStorage.getItem("email");
