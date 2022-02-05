@@ -1,12 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAT-02</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title> Register Here </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <h2>Registration Form </h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your Name"
+                    onkeyup="validateName()" onkeydown="return testname(event)">
+                <span></span>
+
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter your email"
+                    onkeyup="validateEmail()"><span></span>
+
+
+            </div>
+            <div class="form-group">
+                <label for="College">Branch</label>
+                <input type="text" class="form-control" id="branch" placeholder="Enter your Branch">
+                <span></span>
+
+            </div>
+            <div class="form-group">
+                <label for="College">College Name</label>
+                <input type="text" class="form-control" id="college" placeholder="Enter your College">
+                <span></span>
+
+            </div>
+            <div class="form-group">
+                <label for="state"> State </label>
+                <input type="text" class="form-control" id="state" placeholder="Enter State">
+                <span></span>
+
+            </div>
+            <div class="form-group">
+                <label for="state">Address</label>
+                <input type="text" class="form-control" id="state" placeholder="Enter Address">
+                <span></span>
+
+            </div>
+            <div class="form-group">
+                <label for="email">Age</label>
+                <input type="text" class="form-control" id="age" placeholder="Age"
+                    onkeydown=" return validateage(event)"><span></span>
+            </div>
+            <div class="form-group">
+                <label for="state">UserName</label>
+                <input type="text" class="form-control" id="usn" placeholder="Your Username">
+                <span></span>
+
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input class="form-control" name="phone" id="phone" rows="3" placeholder=" Enter phone"
+                    onkeydown=" return testphone(event)">
+                <span></span>
+
+            </div>
+            <div class="form-group">
+                <label for="password">Enter your password</label>
+                <input class="form-control" name="password" id="password" placeholder="Enter Password"
+                    onkeyup="validatePassword()"><span id="strengthDisplay"></span>
+
+            </div>
+            <div class="form-group">
+                <label for="cpassword">Re-enter password</label>
+                <input class="form-control" name="address" id="cpassword" placeholder="Confirm Password"
+                    onkeyup="validateCPassword()">
+                <span></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Any other message...</label>
+                <input class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button id="submit" class="btn btn-primary" onclick="validate(); return false;">Submit</button>
+
+            </select>
+
+        </form>
+    </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./validation.js"></script>
 </body>
+
 </html>
